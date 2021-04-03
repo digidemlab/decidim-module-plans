@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
 
   # We need to lock the GraphQL gem to 1.9.x until the Decidim core type
   # definitions have been updated to the new GraphQL class based definitions.
-  spec.add_dependency "graphql", "~> 1.9.19"
+  spec.add_dependency "graphql", "~> 1.12"
 
   spec.add_development_dependency "decidim-admin", Decidim::Plans::DECIDIM_VERSION
   spec.add_development_dependency "decidim-assemblies", Decidim::Plans::DECIDIM_VERSION
